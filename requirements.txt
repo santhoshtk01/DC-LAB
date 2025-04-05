@@ -4,3 +4,4 @@ mpi4py
 
 sudo apt update
 sudo apt install -y libopenmpi-dev openmpi-bin
+mpiexec -n 4 python your_script.py
